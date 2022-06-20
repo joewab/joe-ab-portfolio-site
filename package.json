@@ -1,0 +1,22 @@
+{
+  "name": "joe-ab-portfolio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "joe-ab-portfolio-site",
+  "author": "Joe AB",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.16.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
