@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Box, Grid, Typography, Container, Paper } from '@mui/material';
 
 function Animals() {
