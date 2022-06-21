@@ -1,12 +1,18 @@
 import * as React from "react";
 
-import { Box, Grid, Typography, Container, Paper } from '@mui/material';
+import {  Grid, Typography, Container, Paper } from '@mui/material';
 
-function Animals() {
+import GetSmart01 from "./project-images/Screen Shot 2022-06-12 at 12.57.13 PM.png";
+import GetSmart02 from "./project-images/Screen Shot 2022-06-12 at 12.57.33 PM.png";
+import GetSmart03 from "./project-images/Screen Shot 2022-06-12 at 12.57.58 PM.png";
+import GetSmart04 from "./project-images/Screen Shot 2022-06-12 at 12.59.14 PM.png";
+
+
+function Projects() {
 
   return (
     <div>
-      <h1 className='headings'>Apps</h1>
+      <h1 className='headings'>Code</h1>
       <Container spacing={5}>
         <Grid>
           <Grid m={4} item>
@@ -14,13 +20,13 @@ function Animals() {
             <Typography p={4}>
               "Get Smart": an art history flashcard game where a teacher can build galleries for their students.
               Click
-              <a target="_blank" href="https://polar-escarpment-47222.herokuapp.com/#/login"> here </a>
+              <a target="_blank" rel="noreferrer" href="https://polar-escarpment-47222.herokuapp.com/#/login"> here </a>
               to go to the site hosted on Heroku. It can take some time to load due to the host. You can also read more about it below...
             </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <img width="100%" src={require("./project-images/Screen Shot 2022-06-12 at 12.57.13 PM.png")} />
+            <img width="100%" src={GetSmart01} />
           </Grid>
           <Grid m={4} item>
             <Paper elevation={5}>
@@ -31,10 +37,10 @@ function Animals() {
             </Paper>
           </Grid>
           <Grid item>
-            <img width="100%" src={require("./project-images/Screen Shot 2022-06-12 at 12.57.33 PM.png")} />
+            <img width="100%" src={GetSmart02} />
           </Grid>
           <Grid item>
-            <img width="100%" src={require("./project-images/Screen Shot 2022-06-12 at 12.57.58 PM.png")} />
+            <img width="100%" src={GetSmart03} />
           </Grid>
           <Grid m={4} item>
             <Paper elevation={5}>
@@ -47,7 +53,7 @@ function Animals() {
             </Paper>
           </Grid>
           <Grid item>
-            <img width="100%" src={require("./project-images/Screen Shot 2022-06-12 at 12.59.14 PM.png")} />
+            <img width="100%" src={GetSmart04} />
           </Grid>
         </Grid>
       </Container>
@@ -74,4 +80,4 @@ function Animals() {
   );
 }
 
-export default Animals;
+export default Projects;

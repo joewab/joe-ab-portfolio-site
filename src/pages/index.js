@@ -1,19 +1,17 @@
 import * as React from "react";
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
-import Home from '../components/Home/Home.jsx';
-import Projects from '../components/Projects/Projects.jsx';
-import Artwork from '../components/Artwork/Artwork.jsx';
-import Resume from '../components/Resume/Resume.jsx';
+import Home from './components/Home/Home.jsx';
+import Projects from './components/Projects/Projects.jsx';
+import Artwork from './components/Artwork/Artwork.jsx';
 import './index.css';
+import GithubIcon from "./GitHub-Mark-64px.png";
+import LinkedInIcon from "./LI-In-Bug.png";
 
 
-import Box from '@mui/material/Box';
-import SvgIcon from '@mui/material/SvgIcon';
-import HomeIcon from '@mui/icons-material/Home';
-import CodeIcon from '@mui/icons-material/Code';
+import Resume from "./components/Resume/Joe-Anthony-Brown_resume.pdf"
 
 
-function App() {
+function IndexPage() {
   return (
     <Router>
       <div>
@@ -28,13 +26,13 @@ function App() {
             <Link to="/artwork"><img src="https://img.icons8.com/external-others-made-by-made/50/undefined/external-art-art-others-made-by-made-54.png"/></Link>
           </div>
           <div>
-          <a target="_blank" href= {require("../components/Resume/Joe-Anthony-Brown_resume.pdf")}><img src="https://img.icons8.com/ios/50/undefined/resume.png"/></a>
+          <a target="_blank" rel="noreferrer" href= {Resume}><img src="https://img.icons8.com/ios/50/undefined/resume.png"/></a>
           </div>
           <div>
-          <a target="_blank" href= "https://github.com/joewab"><img width='50px' src={require("./GitHub-Mark-64px.png")}/></a>
+          <a target="_blank" rel="noreferrer" href= "https://github.com/joewab"><img width='50px' src={GithubIcon}/></a>
           </div>
           <div>
-          <a target="_blank" href= "https://www.linkedin.com/in/joe-anthony-brown/"><img width='50px' src={require("./LI-In-Bug.png")}/></a>
+          <a target="_blank" rel="noreferrer" href= "https://www.linkedin.com/in/joe-anthony-brown/"><img width='50px' src={LinkedInIcon}/></a>
           </div>
         </nav>
         
@@ -56,4 +54,4 @@ function App() {
   );
 }
 // http://localhost:3000/#/
-export default App;
+export default IndexPage;
