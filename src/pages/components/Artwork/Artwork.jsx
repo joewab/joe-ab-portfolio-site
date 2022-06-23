@@ -20,12 +20,7 @@ function Artwork() {
       <h1 className='headings'>Art</h1>
       <Container >
         <Grid container spacing={2}>
-          {/* <Grid item>
-            <img width='500px' src={require('./art-images/Earth_Alien.jpg')} />
-          </Grid>
-          <Grid item>
-            <img width='500px' src={require('./art-images/Emergence_of_the_Squid_Soul.jpg')} />
-          </Grid> */}
+         
           <Grid item xs={6}>
             <img width='70%' alt="" src={MidPHand01} />
           </Grid>
@@ -38,9 +33,7 @@ function Artwork() {
           <Grid item>
             <img width='500px' alt="" src={MidPSprays05} />
           </Grid>
-          {/* <Grid item>
-            <img width='500px' src={require('./art-images/Robot_Surrenders_to_the_Primordial_Ooze.jpg')} />
-          </Grid> */}
+          
           <Grid item>
             <img width='500px' alt="" src={Studio1_10} />
           </Grid>

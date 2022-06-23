@@ -57,22 +57,7 @@ function Projects() {
           </Grid>
         </Grid>
       </Container>
-      {/* <Box sx={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-around',
-          p: 0,
-          m: 0,
-          borderRadius: 1,
-        }}>
-          
-            <div>
-              <img width="700px" src={require("./project-images/Screen Shot 2022-06-12 at 12.57.58 PM.png")} />
-              </div>
-              <div>
-              <img width="300px" src={require("./project-images/Screen Shot 2022-06-12 at 12.58.21 PM.png")} />
-              </div>
-      </Box> */}
+     
 
 
 
