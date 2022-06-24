@@ -4,11 +4,11 @@ import * as React from "react";
 // import Artwork from './components/Artwork/Artwork.jsx';
 import './index.css';
 import { Link } from "gatsby"
-import GithubIcon from "./GitHub-Mark-64px.png";
-import LinkedInIcon from "./new-linkedin-logo-white-black.png";
+import GithubIcon from "./github-outline.png";
+import LinkedInIcon from "./Linkedin-Outline.png";
 
 
-import Resume from "./components/Resume/Joe_Anthony-Brown_Resume_general.pdf"
+import Resume from "./components/Resume/Joe_Anthony-Brown_Resume_Website.pdf"
 
 
 function IndexPage() {

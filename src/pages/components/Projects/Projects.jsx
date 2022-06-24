@@ -3,9 +3,9 @@ import * as React from "react";
 import { Grid, Typography, Container, Paper } from '@mui/material';
 
 import { Link } from "gatsby";
-import GithubIcon from "../../GitHub-Mark-64px.png";
-import LinkedInIcon from "../../new-linkedin-logo-white-black.png";
-import Resume from "../Resume/Joe_Anthony-Brown_Resume_general.pdf";
+import GithubIcon from "../../github-outline.png";
+import LinkedInIcon from "../../Linkedin-Outline.png";
+import Resume from "../Resume/Joe_Anthony-Brown_Resume_Website.pdf";
 
 import GetSmart01 from "./project-images/Screen Shot 2022-06-12 at 12.57.13 PM.png";
 import GetSmart02 from "./project-images/Screen Shot 2022-06-12 at 12.57.33 PM.png";
