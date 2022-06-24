@@ -4,7 +4,7 @@ import { Grid, Typography, Container, Paper } from '@mui/material';
 
 import { Link } from "gatsby";
 import GithubIcon from "../../GitHub-Mark-64px.png";
-import LinkedInIcon from "../../LI-In-Bug.png";
+import LinkedInIcon from "../../new-linkedin-logo-white-black.png";
 import Resume from "../Resume/Joe_Anthony-Brown_Resume_general.pdf";
 
 import GetSmart01 from "./project-images/Screen Shot 2022-06-12 at 12.57.13 PM.png";
