@@ -3,7 +3,7 @@ import * as React from "react";
 import { Link } from "gatsby"
 import GithubIcon from "../../GitHub-Mark-64px.png";
 import LinkedInIcon from "../../LI-In-Bug.png";
-import Resume from "../Resume/_Joe_Anthony-Brown_Resume.pdf";
+import Resume from "../Resume/Joe_Anthony-Brown_Resume_general.pdf";
 
 
 function Home() {
@@ -29,7 +29,11 @@ function Home() {
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/joe-anthony-brown/"><img alt="" width='50px' src={LinkedInIcon} /></a>
         </div>
       </nav>
-      <h1 className="big-text">Hello, my name is Joe. Please take a look around!</h1>
+      <div className="reading-container">
+      <h1 className="big-text">Hello, my name is Joe.</h1>
+      <h2>I'm a full stack developer and artist.</h2>
+      <h3>This is a work in progress, I will be continuing to rework it and add content... </h3>
+      </div>
       <div className="gap"></div>
       <a target="_blank" href="https://icons8.com/icon/73/home">Icons by Icons8</a>
 

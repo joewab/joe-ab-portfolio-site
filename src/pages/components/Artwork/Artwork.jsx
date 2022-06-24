@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Grid, Container } from '@mui/material';
+import { Grid, Typography, Container, Paper } from '@mui/material';
 
 import { Link } from "gatsby";
 import GithubIcon from "../../GitHub-Mark-64px.png";
 import LinkedInIcon from "../../LI-In-Bug.png";
-import Resume from "../Resume/_Joe_Anthony-Brown_Resume.pdf";
+import Resume from "../Resume/Joe_Anthony-Brown_Resume_general.pdf";
 
 import MidPHand01 from "./art-images/midp2-hand-01.jpg";
 import MidPHead01 from "./art-images/midp2-head-01.jpg";
@@ -42,37 +42,73 @@ function Artwork() {
           <a target="_blank" aria-label="linkedin" rel="noreferrer" href="https://www.linkedin.com/in/joe-anthony-brown/"><img alt="" width='50px' src={LinkedInIcon} /></a>
         </div>
       </nav>
-      <h1 className='headings'>Art</h1>
-      <Container >
-        <Grid container spacing={2}>
+      <div className="content-container">
+        <h1 className='headings'>Art</h1>
+        <Container >
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <Paper className="paper" elevation={5}>
+                <Typography p={1}>
+                  <p>
+                    wall carvings
+                  </p>
+                </Typography>
+              </Paper>
+            </Grid>
+            <Grid item xs={6}>
+              <img width='100%' alt="" src={MidPHand01} />
+            </Grid>
+            <Grid item xs={6}>
+              <img width='100%' alt="" src={MidPHead01} />
+            </Grid>
+            <Grid item xs={12}>
+              <Paper className="paper" elevation={5}>
+                <Typography p={1}>
+                  <p>
+                    spray-paintings
+                  </p>
+                </Typography>
+              </Paper>
+            </Grid>
+            <Grid item>
+              <img width='100%' alt="" src={MidPSprays03} />
+            </Grid>
+            <Grid item>
+              <img width='100%' alt="" src={MidPSprays05} />
+            </Grid>
 
-          <Grid item xs={6}>
-            <img width='70%' alt="" src={MidPHand01} />
-          </Grid>
-          <Grid item xs={6}>
-            <img width='70%' alt="" src={MidPHead01} />
-          </Grid>
-          <Grid item>
-            <img width='500px' alt="" src={MidPSprays03} />
-          </Grid>
-          <Grid item>
-            <img width='500px' alt="" src={MidPSprays05} />
-          </Grid>
+            <Grid item xs={12}>
+              <Paper className="paper" elevation={5}>
+                <Typography p={1}>
+                  <p>
+                    oil stick reductive paintings
+                  </p>
+                </Typography>
+              </Paper>
+            </Grid>
 
-          <Grid item>
-            <img width='500px' alt="" src={Studio1_10} />
+            <Grid item xs={6}>
+              <img width='100%' alt="" src={Studio1_10} />
+            </Grid>
+            <Grid item xs={6}>
+              <img width='100%' alt="" src={Studio1_11} />
+            </Grid>
+            <Grid item>
+              <img width='100%' alt="" src={Studio1_12} />
+            </Grid>
+            <Grid item xs={12}>
+              <Paper className="paper" elevation={5}>
+                <Typography p={1}>
+                  <p>
+                    more artwork will be added...
+                  </p>
+                </Typography>
+              </Paper>
+            </Grid>
+            <Grid m={5}></Grid>
           </Grid>
-          <Grid item>
-            <img width='500px' alt="" src={Studio1_11} />
-          </Grid>
-          <Grid item>
-            <img width='500px' alt="" src={Studio1_12} />
-          </Grid>
-          <Grid item>
-            <img width='500px' alt="" src={Studio1_14} />
-          </Grid>
-        </Grid>
-      </Container>
+        </Container>
+      </div>
     </div>
   );
 }
