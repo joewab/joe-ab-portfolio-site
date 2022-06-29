@@ -3,7 +3,7 @@ import * as React from "react";
 import { Link } from "gatsby"
 import GithubIcon from "../../github-outline.png";
 import LinkedInIcon from "../../Linkedin-Outline.png";
-import Resume from "../Resume/Joe_Anthony-Brown_Resume_Website.pdf";
+import Resume from "../Resume/Joe_Anthony-Brown_Resume.pdf";
 
 
 function Home() {
